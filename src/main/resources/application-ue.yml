@@ -1,0 +1,7 @@
+# User Experience
+# UE/UX
+# --- 用户体验 ---
+
+server:
+  error:
+    include-stacktrace: always

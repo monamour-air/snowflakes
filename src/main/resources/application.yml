@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active:
+    - '@spring.profiles.active@'
+    - db
+    - mybatis
+    - logging
+    - ue
+
+server:
+  servlet:
+    context-path: '/@project.name@' # 使用pom.xml文件中的标签（唯一），同样‘/@name@’亦可

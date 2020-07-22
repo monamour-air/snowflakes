@@ -1,0 +1,5 @@
+mybatis:
+  type-aliases-package: com.sun.stone.freelancer.bean
+  mapper-locations:
+  - 'classpath:mapping/*Mapper.xml'
+  config-location: 'classpath:mybatis-config.xml'
